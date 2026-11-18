@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Engram privacy policy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <p><a href="index.html">Engram</a></p>
+      <h1>Privacy policy</h1>
+      <p class="lead">Last updated 18 November 2026.</p>
+
+      <h2>Where data lives</h2>
+      <p>
+        Engram is a desktop app that runs on the user’s own Mac. Everything it stores (the study
+        plan, timetable, notes and settings) is kept in a database on that Mac. The developer runs
+        no server and receives no data. There are no analytics, ads or tracking.
+      </p>
+
+      <h2>Google user data</h2>
+      <p>
+        When the user connects Google Calendar, Engram asks for one permission,
+        <code>https://www.googleapis.com/auth/calendar.app.created</code>, which lets it create a
+        calendar and manage that calendar only. It uses it to:
+      </p>
+      <ul>
+        <li>create one calendar named for Engram in the user’s Google account;</li>
+        <li>add, update and remove events in that calendar: the user’s own planned study
+          blocks, lectures and deadlines.</li>
+      </ul>
+      <p>
+        Engram cannot see the user’s other calendars or events, and it does not read Google data
+        for any other purpose. Google data is not sold, shared with anyone, used for advertising
+        or used to train AI models. It is only sent between the user’s Mac and Google.
+      </p>
+      <p>
+        The sign-in token Google issues is stored on the user’s Mac, encrypted with the macOS
+        Keychain. Signing out in Engram deletes it. Access can also be removed at any time at
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>;
+        deleting the Engram calendar in Google Calendar removes everything Engram wrote there.
+      </p>
+
+      <h2>Other services</h2>
+      <p>
+        Engram can also read a timetable feed, a local Zotero library and the Tot app on the same
+        Mac, and can send text the user chooses to Anthropic’s Claude using the user’s own
+        Claude account. None of this involves Google user data.
+      </p>
+
+      <h2>Changes</h2>
+      <p>Changes to this policy are published on this page.</p>
+    </main>
+  </body>
+</html>
